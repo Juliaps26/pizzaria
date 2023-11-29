@@ -1,0 +1,75 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: grid;
+    background-image: url(assets/img/fundo.png);
+  }
+
+.img{
+  width: 20px;
+  height: 20px;
+  padding: 10px;
+}
+
+/**/
+.texto{
+display: flex;
+color: white;
+margin-left: 60px;
+font-size: 15px;
+padding: 40px;
+  }
+
+
+.textomaior{
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-top: 200px;
+}
+ 
+.descricao{
+  color: white;
+  margin-top: 10px;
+  font-family: 'Roboto', sans-serif;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+
+footer{
+  display: flex;
+  justify-content: center;
+}
+
+button{
+display: flex;
+justify-content: center;
+align-items: center;
+background-color: white;
+width: 280px;
+height: 50px;
+margin-top: 100px;
+border-radius: 10px;
+border: solid 2px grey;
+
+}
+
+.botao a{
+text-decoration: none;
+color: #F27706;
+font-family: Roboto;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+
+}

@@ -1,0 +1,57 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-image: url(/assets/img/fundo.png); 
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: grid;
+  background-color: aquamarine;
+}
+
+h2{
+font-family: 'Roboto', sans-serif;
+color: #FFF;
+font-size: 26px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin-top: 90px;
+}
+
+p{
+color: #FFF;
+font-family: 'Roboto', sans-serif;
+font-size: 15px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+
+}
+header{
+  display: flex;
+}
+main{
+  display: flex;
+  
+
+}
+.conta{
+  display: flex;
+  flex-direction: column;
+  margin-top: 80px;
+
+}
+
+.entrar{
+  margin-top: 200px;
+  align-items: center;
+}
+
+
+
+
+
+
+
+
